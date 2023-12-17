@@ -1,7 +1,10 @@
-const inputBox = document.getElementById('input-box');
+const inputBox = document.getElementById("input-box");
 
-const listContainer = document.getElementById('list-container');
+const listContainer = document.getElementById("list-container");
 
+/**
+ * !Adding todo tasks function
+ */
 const addTask = () => {
     if (inputBox.value === '') {
         alert("Please enter a task");
